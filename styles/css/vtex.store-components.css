@@ -112,6 +112,37 @@
   object-fit: cover;
 }
 
+/* Home / Blog */
+.infoCardContainer--home-blog-article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.infoCardContainer--home-blog-article :global(.vtex-store-components-3-x-infoCardTextContainer--home-blog-article),
+.infoCardContainer--home-blog-article :global(.vtex-store-components-3-x-infoCardImageContainer--home-blog-article) {
+  width: 100% !important;
+}
+.infoCardContainer--home-blog-article :global(.vtex-store-components-3-x-infoCardTextContainer--home-blog-article) {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  padding: 2rem;
+  display: block;
+}
+.infoCardHeadline--home-blog-article,
+.infoCardSubhead--home-blog-article {
+  color: #fff;
+  text-align: left;
+}
+
+.infoCardHeadline--home-blog-article {
+  font-size: 1.3rem;
+}
+.infoCardCallActionContainer--home-blog-article {
+  display: none;
+}
+
 
 /* Ajustes Container Vtex */
 @media screen and (min-width: 1024px) {

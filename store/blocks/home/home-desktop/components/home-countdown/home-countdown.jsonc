@@ -1,5 +1,7 @@
 {
   // Home / Count Down
+
+
   "flex-layout.col#home-countDown-countDown": {
     "props": {
         "blockClass": "home-countDown-countDown",
@@ -10,6 +12,8 @@
         "rich-text#home-countDown-countDown"
     ]
   },
+
+  // Home / Count Down / Clock
   "image#home-countDown-countDown": {
     "props": {
         "blockClass": "home-countDown-countDown",
@@ -23,8 +27,7 @@
     }
   },
 
-
-
+// Home / Count Down / Shelfs
   "flex-layout.col#home-countDown-shelf": {
     "props": {
         "blockClass": "home-countDown-shelf"

@@ -6,8 +6,13 @@
       "flex-layout.row#home-icons",
       "flex-layout.row#home-countDown",
       "flex-layout.row#home-ofertas",
-      "sticky-layout#home-categorias"
-      
+      "sticky-layout#home-categorias",
+      "flex-layout.row#home-destacados",
+      "flex-layout.row#home-productsSections",
+      "flex-layout.row#home-productsSections",
+      "flex-layout.row#home-productsSections",
+      "flex-layout.row#home-productsSections",
+      "flex-layout.row#home-blog"
     ]
   },
 
@@ -83,6 +88,42 @@
         "flex-layout.col#home-categorias-8",
         "flex-layout.col#home-categorias-9",
         "flex-layout.col#home-categorias-10"
+    ]
+  },
+
+// Home / Destacados
+  "flex-layout.row#home-destacados": {
+    "props": {
+        "blockClass": "home-destacados",
+        "colSizing": "auto"
+    },
+    "children": [
+        "flex-layout.col#home-destacados-title",
+        "flex-layout.col#home-destacados-images"
+    ]
+  },
+
+// Home / Products Sections
+  "flex-layout.row#home-productsSections": {
+    "props": {
+        "blockClass": "home-productsSections",
+        "colSizing": "auto"
+    },
+    "children": [
+        "flex-layout.col#home-productsSections-title",
+        "flex-layout.col#home-productsSections-shelfs"
+    ]
+  },
+
+// Home / Blog
+  "flex-layout.row#home-blog": {
+    "props": {
+        "blockClass": "home-blog",
+        "colSizing": "auto"
+    },
+    "children": [
+        "flex-layout.col#home-blog-title",
+        "flex-layout.col#home-blog-conent"
     ]
   }
 }

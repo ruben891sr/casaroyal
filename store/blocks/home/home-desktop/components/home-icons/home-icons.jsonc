@@ -1,5 +1,5 @@
 {
-  // Home / Icons
+  // Home / Icons / Icon 1
   "flex-layout.col#home-icons-uno": {
     "props": {
       "blockClass": ["home-icons-uno", "home-icons"]
@@ -19,6 +19,8 @@
       "textAlignment": "center"
     }
   },
+
+  // Home / Icons / Icon 2
   "flex-layout.col#home-icons-dos": {
     "props": {
       "blockClass": ["home-icons-dos", "home-icons"]
@@ -38,6 +40,8 @@
       "textAlignment": "center"
     }
   },
+
+  // Home / Icons / Icon 3
   "flex-layout.col#home-icons-tres": {
     "props": {
       "blockClass": ["home-icons-tres", "home-icons"]
@@ -57,6 +61,8 @@
       "textAlignment": "center"
     }
   },
+
+  // Home / Icons / Icon 4
   "flex-layout.col#home-icons-cuatro": {
     "props": {
       "blockClass": ["home-icons-cuatro", "home-icons"]
@@ -76,6 +82,8 @@
       "textAlignment": "center"
     }
   },
+
+  // Home / Icons / Icon 5
   "flex-layout.col#home-icons-cinco": {
     "props": {
       "blockClass": ["home-icons-cinco", "home-icons"]
@@ -95,6 +103,8 @@
       "textAlignment": "center"
     }
   },
+
+  // Home / Icons / Icon 6
   "flex-layout.col#home-icons-seis": {
     "props": {
       "blockClass": ["home-icons-seis", "home-icons"]
@@ -114,6 +124,8 @@
       "textAlignment": "center"
     }
   },
+
+  // Home / Icons / Icon 7
   "flex-layout.col#home-icons-siete": {
     "props": {
       "blockClass": ["home-icons-siete", "home-icons"]

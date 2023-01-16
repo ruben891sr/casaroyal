@@ -1,0 +1,65 @@
+{
+    // Home / ProductsSections / Title
+  "flex-layout.col#home-productsSections-title": {
+    "props": {
+      "blockClass": "home-productsSections-title"
+    },
+    "children": ["rich-text#home-productsSections-title"]
+  },
+  "rich-text#home-productsSections-title": {
+    "props": {
+      "blockClass": "home-productsSections",
+      "text": "Computación"
+    }
+  },
+
+
+  // Home / ProductsSections / Image-Shelfs
+  "flex-layout.col#home-productsSections-shelfs": {
+    "props": {
+      "blockClass": "home-productsSections-shelfs"
+    },
+    "children": ["flex-layout.row#home-productsSections-shelfs"]
+  },
+  "flex-layout.row#home-productsSections-shelfs": {
+    "props": {
+      "blockClass": "home-productsSections-shelfs-cols"
+    },
+    "children": [
+      "flex-layout.col#home-productsSections-shelfs-cols-imageButton",
+      "flex-layout.col#home-productsSections-shelfs-cols-shelfs"
+    ]
+  },
+  
+
+  // Home / ProductsSections / Image-Shelfs / Image
+  "flex-layout.col#home-productsSections-shelfs-cols-imageButton": {
+    "props": {
+      "blockClass": "home-productsSections-shelfs-cols-imageButton",
+      "width": "20%"
+    },
+    "children": [
+      "image#home-productsSections",
+      "rich-text#home-productsSections"
+    ]
+  },
+  "image#home-productsSections": {
+    "props": {
+      "blockClass": "home-productsSections",
+      "src": "assets/home/home-prodcutos/home-productos.png",
+      "url": {
+        "link": "/"
+      }
+    }
+  },
+  "rich-text#home-productsSections": {
+    "props": {
+      "blockClass": "home-productsSections-button",
+      "text": "[Ver todo computación](/)"
+    }
+  },
+
+
+  // Home / ProductsSections / Image-Shelfs / Shelf
+  "flex-layout.col#home-productsSections-shelfs-cols-shelfs": {}
+}

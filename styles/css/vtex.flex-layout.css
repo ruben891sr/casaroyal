@@ -73,13 +73,51 @@
 }
 
 /* Home / Ofertas */
+.flexRow--home-destacados {
+    margin: 4rem 0;
+}
 .flexRowContent--home-ofertas {
     flex-direction: column;
 }
-
 /* Home Categorias */
+.flexRowContent--home-destacados {
+    display: flex;
+    flex-direction: column;
+}
 .flexRow--home-categorias {
     background: rgb(43,86,142);
     background: linear-gradient(90deg, rgba(43,86,142,1) 0%, rgba(95,164,95,1) 100%);
     padding: 3rem 0;
 } 
+.flexCol--home-categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Home / Products */
+.flexRow--home-productsSections {
+    margin-bottom: 4rem;
+}
+.flexRowContent--home-productsSections {
+    display: flex;
+    flex-direction: column;
+}
+.flexCol--home-productsSections-shelfs-cols-imageButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/* Home / Blog */
+.flexRowContent--home-blog {
+    display: flex;
+    flex-direction: column;
+}
+.flexCol--home-blog-conent {
+    display: flex;
+    flex-direction: row;
+}

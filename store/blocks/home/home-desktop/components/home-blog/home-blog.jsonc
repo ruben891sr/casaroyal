@@ -1,0 +1,68 @@
+{
+  // Home / Blog
+
+  // Home / Blog / Title
+  "flex-layout.col#home-blog-title": {
+    "props": {
+      "blockClass": "home-blog-title"
+    },
+    "children": ["rich-text#home-blog-title"]
+  },
+  "rich-text#home-blog-title": {
+    "props": {
+      "blockClass": "home-blog-title",
+      "text": "Blog"
+    }
+  },
+
+  // Home / Blog / Content
+  "flex-layout.col#home-blog-conent": {
+    "props": {
+      "blockClass": "home-blog-conent"
+    },
+    "children": [
+      "info-card#home-blog-article1",
+      "info-card#home-blog-article2",
+      "info-card#home-blog-article3"
+    ]
+  },
+
+
+  // Home / Blog / Content / Infocards
+  "info-card#home-blog-article1": {
+    "props": {
+      "blockClass": "home-blog-article",
+      "id": "home-blog-article1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-blog/home-blog-1.png",
+      "headline": "Nuevos computadores",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home-blog-article2": {
+    "props": {
+      "blockClass": "home-blog-article",
+      "id": "home-blog-article2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-blog/home-blog-2.png",
+      "headline": "Nuevos computadores",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home-blog-article3": {
+    "props": {
+      "blockClass": "home-blog-article",
+      "id": "home-blog-article3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-blog/home-blog-3.png",
+      "headline": "Nuevos computadores",
+      "subhead": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "textAlignment": "center"
+    }
+  }
+}
