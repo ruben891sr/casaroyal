@@ -1,0 +1,36 @@
+{
+  // Home / Count Down
+  "flex-layout.col#home-countDown-countDown": {
+    "props": {
+        "blockClass": "home-countDown-countDown",
+        "width": "50%"
+    },
+    "children": [
+        "image#home-countDown-countDown",
+        "rich-text#home-countDown-countDown"
+    ]
+  },
+  "image#home-countDown-countDown": {
+    "props": {
+        "blockClass": "home-countDown-countDown",
+        "src": "assets/home/home-countdown/count-down.jpg"
+    }
+  },
+  "rich-text#home-countDown-countDown": {
+    "props": {
+        "blockClass": "home-countDown-countDown",
+        "text": "Solo*X*48hrs\n**03** **45** **03** "
+    }
+  },
+
+
+
+  "flex-layout.col#home-countDown-shelf": {
+    "props": {
+        "blockClass": "home-countDown-shelf"
+    },
+    "children": [
+        // "product-summary.shelf"
+    ]
+  }
+}

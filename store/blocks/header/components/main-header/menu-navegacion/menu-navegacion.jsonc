@@ -1,0 +1,42 @@
+{
+  // Main Header / Logo
+  "vtex.menu@2.x:menu#header-mainHeader-triggerMenu": {
+    "props": {
+      "blockClass": "header-mainHeader-triggerMenu"
+    },
+    "children": ["menu-item#header-mainHeader-triggerMenu"]
+  },
+  "menu-item#header-mainHeader-triggerMenu": {
+    "props": {
+      "blockClass": "header-mainHeader-triggerMenu",
+      "id": "header-main-header-trigger-menu",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "header-main-header-trigger-menu",
+        "text": "Menú de categorías"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#header-mainHeader-menu"]
+  },
+  "vtex.menu@2.x:submenu#header-mainHeader-menu": {
+    "props": {
+      "blockClass": "header-mainHeader-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#header-mainHeader-menu"]
+  },
+  "vtex.menu@2.x:menu#header-mainHeader-menu": {
+    "props": {
+      "blockClass": "header-mainHeader-menu"
+    },
+    "children": [
+      "rich-text#header-promoTopBar",
+      "rich-text#header-promoTopBar",
+      "rich-text#header-promoTopBar",
+      "rich-text#header-promoTopBar"
+    ]
+  }
+}

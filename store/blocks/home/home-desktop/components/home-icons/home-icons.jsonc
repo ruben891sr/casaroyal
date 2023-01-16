@@ -1,0 +1,136 @@
+{
+  // Home / Icons
+  "flex-layout.col#home-icons-uno": {
+    "props": {
+      "blockClass": ["home-icons-uno", "home-icons"]
+    },
+    "children": ["info-card#home-icons-uno"]
+  },
+  "info-card#home-icons-uno": {
+    "props": {
+      "id": "info-card-home-icons-uno",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-icons/home-icons-uno.svg",
+      "headline": "Asesoría personalizada",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": ["home-icons-uno", "home-icons"],
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#home-icons-dos": {
+    "props": {
+      "blockClass": ["home-icons-dos", "home-icons"]
+    },
+    "children": ["info-card#home-icons-dos"]
+  },
+  "info-card#home-icons-dos": {
+    "props": {
+      "id": "info-card-home-icons-dos",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-icons/home-icons-dos.svg",
+      "headline": "Alianza Santander",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": ["home-icons-dos", "home-icons"],
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#home-icons-tres": {
+    "props": {
+      "blockClass": ["home-icons-tres", "home-icons"]
+    },
+    "children": ["info-card#home-icons-tres"]
+  },
+  "info-card#home-icons-tres": {
+    "props": {
+      "id": "info-card-home-icons-tre",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-icons/home-icons-tres.svg",
+      "headline": "Despacho Express",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": ["home-icons-tre", "home-icons"],
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#home-icons-cuatro": {
+    "props": {
+      "blockClass": ["home-icons-cuatro", "home-icons"]
+    },
+    "children": ["info-card#home-icons-cuatro"]
+  },
+  "info-card#home-icons-cuatro": {
+    "props": {
+      "id": "info-card-home-icons-cua",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-icons/home-icons-cuatro.svg",
+      "headline": "Tiendas abiertas",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": ["home-icons-cua", "home-icons"],
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#home-icons-cinco": {
+    "props": {
+      "blockClass": ["home-icons-cinco", "home-icons"]
+    },
+    "children": ["info-card#home-icons-cinco"]
+  },
+  "info-card#home-icons-cinco": {
+    "props": {
+      "id": "info-card-home-icons-cin",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-icons/home-icons-cinco.svg",
+      "headline": "Cuotas sin interés",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": ["home-icons-cin", "home-icons"],
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#home-icons-seis": {
+    "props": {
+      "blockClass": ["home-icons-seis", "home-icons"]
+    },
+    "children": ["info-card#home-icons-seis"]
+  },
+  "info-card#home-icons-seis": {
+    "props": {
+      "id": "info-card-home-icons-sei",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-icons/home-icons-seis.svg",
+      "headline": "Cambios y devoluciones",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": ["home-icons-sei", "home-icons"],
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#home-icons-siete": {
+    "props": {
+      "blockClass": ["home-icons-siete", "home-icons"]
+    },
+    "children": ["info-card#home-icons-siete"]
+  },
+  "info-card#home-icons-siete": {
+    "props": {
+      "id": "info-card-home-icons-sie",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/home/home-icons/home-icons-siete.svg",
+      "headline": "Retiro en tienda",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": ["home-icons-sie", "home-icons"],
+      "textAlignment": "center"
+    }
+  }
+}

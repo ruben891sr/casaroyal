@@ -1,0 +1,58 @@
+{
+
+  // Header / Top bar / Seguimiento
+  "image#header-topBar-seguimiento": {
+    "props": {
+      "blockClass": "header-topBar-seguimiento",
+      "src": "assets/icons/truck.svg"
+    }
+  },
+  "rich-text#header-topBar-seguimiento": {
+    "props": {
+      "blockClass": "header-topBar",
+      "text": "[Seguimiento del pedido](/)"
+    }
+  },
+
+  // Header / Top bar / Venta Empresa
+  "image#header-topBar-ventaEmpresa": {
+    "props": {
+      "blockClass": "header-topBar-ventaEmpresa",
+      "src": "assets/icons/business.svg"
+    }
+  },
+  "rich-text#header-topBar-ventaEmpresa": {
+    "props": {
+      "blockClass": "header-topBar",
+      "text": "[Venta empresa](/)"
+    }
+  },
+
+  // Header / Top bar / Tiendas
+  "image#header-topBar-tiendas": {
+    "props": {
+      "blockClass": "header-topBar-tiendas",
+      "src": "assets/icons/stores.svg"
+    }
+  },
+  "rich-text#header-topBar-tiendas": {
+    "props": {
+      "blockClass": "header-topBar",
+      "text": "[Nuestras tiendas](/)"
+    }
+  },
+
+  // Header / Top bar / Contactanos
+  "image#header-topBar-contactanos": {
+    "props": {
+      "blockClass": "header-topBar-contactanos",
+      "src": "assets/icons/mail.svg"
+    }
+  },
+  "rich-text#header-topBar-contactanos": {
+    "props": {
+      "blockClass": "header-topBar",
+      "text": "[Contáctanos](/)"
+    }
+  }
+}

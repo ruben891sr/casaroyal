@@ -1,0 +1,13 @@
+/* Header / Main Header / Minicart */
+.openIconContainer {
+    padding: 0;
+}
+.minicartContainer :global(.vtex-button) {
+    transition: all .5s ease;
+}
+.minicartContainer :global(.vtex-button):active,
+.minicartContainer :global(.vtex-button):focus,
+.minicartContainer :global(.vtex-button):hover {
+    transition: all .5s ease;
+    background-color: #7DA2D2;
+}

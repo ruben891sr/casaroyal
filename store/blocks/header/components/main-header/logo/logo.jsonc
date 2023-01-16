@@ -1,0 +1,10 @@
+{
+  // Main Header / Logo
+  "logo": {
+    "props": {
+      "href": "/",
+      "url": "assets/logo-casaroyal1.svg",
+      "title": "Logo Casa Royal"
+    }
+  }
+}

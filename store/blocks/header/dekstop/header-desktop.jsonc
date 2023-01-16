@@ -1,12 +1,163 @@
 {
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop"]
+    "children": [
+      "flex-layout.row#header-promoTopBar",
+      "flex-layout.row#header-topBar",
+      "sticky-layout#header-mainHeader",
+      "flex-layout.row#header-promoBar"
+    ]
   },
-  "sticky-layout#desktop": {
+
+
+  // Header / Promo top bar
+  "flex-layout.row#header-promoTopBar": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "header-promoTopBar",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#header-promoTopBar"]
+  },
+  "flex-layout.col#header-promoTopBar": {
+    "props": {
+      "blockClass": "header-promoTopBar"
+    },
+    "children": ["rich-text#header-promoTopBar"]
+  },
+
+
+  // Header / Top bar
+  "flex-layout.row#header-topBar": {
+    "props": {
+      "blockClass": "header-topBar",
+      "colSizing": "auto"
     },
     "children": [
+      "flex-layout.col#header-topBar-seguimiento",
+      "flex-layout.col#header-topBar-ventaEmpresa",
+      "flex-layout.col#header-topBar-tiendas",
+      "flex-layout.col#header-topBar-contactanos"
     ]
+  },
+  "flex-layout.col#header-topBar-seguimiento": {
+    "props": {
+      "blockClass": ["header-topBar-seguimiento", "header-topBar"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#header-topBar-seguimiento",
+      "rich-text#header-topBar-seguimiento"
+    ]
+  },
+  "flex-layout.col#header-topBar-ventaEmpresa": {
+    "props": {
+      "blockClass": ["header-topBar-ventaEmpresa", "header-topBar"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#header-topBar-ventaEmpresa",
+      "rich-text#header-topBar-ventaEmpresa"
+    ]
+  },
+"flex-layout.col#header-topBar-tiendas": {
+    "props": {
+      "blockClass": ["header-topBar-tiendas", "header-topBar"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#header-topBar-tiendas",
+      "rich-text#header-topBar-tiendas"
+    ]
+  },
+"flex-layout.col#header-topBar-contactanos": {
+    "props": {
+      "blockClass": ["header-topBar-contactanos", "header-topBar"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#header-topBar-contactanos",
+      "rich-text#header-topBar-contactanos"
+    ]
+  },
+
+
+
+  // Header / Main header
+  "sticky-layout#header-mainHeader": {
+    "props": {
+      "blockClass": "header-mainHeader"
+    },
+    "children": [
+      "flex-layout.row#header-mainHeader"
+    ]
+  },
+  "flex-layout.row#header-mainHeader": {
+    "props": {
+      "blockClass": "header-mainHeader",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header-mainHeader-logo",
+      "flex-layout.col#header-mainHeader-triggerMenu",
+      "flex-layout.col#header-mainHeader-search",
+      "flex-layout.col#header-mainHeader-locationUserCart"
+    ]  
+  },
+  "flex-layout.col#header-mainHeader-logo": {
+    "props": {
+      "blockClass": "header-mainHeader-logo",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "flex-layout.col#header-mainHeader-triggerMenu": {
+    "props": {
+      "blockClass": "header-mainHeader-triggerMenu",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#header-mainHeader-triggerMenu"
+    ]
+  },
+  "flex-layout.col#header-mainHeader-search": {
+    "props": {
+      "blockClass": "header-mainHeader-search",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+  "flex-layout.col#header-mainHeader-locationUserCart": {
+    "props": {
+      "blockClass": "header-mainHeader-locationUserCart",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#header-mainHeader-locationUserCart"
+    ]
+  },
+
+
+  // Header / Promo bar
+  "flex-layout.row#header-promoBar": {
+    "props": {
+      "blockClass": "header-promoBar",
+      "colSizing": "auto",
+      "fullWidth": true
+    },
+    "children": [
+      "image#header-promoBar"
+    ]
+  },
+  "image#header-promoBar": {
+    "props": {
+      "blockClass": "header-promoBar",
+      "src": "assets/header/promo-bar0.jpg",
+      "link": {
+        "url": "/"
+      } 
+    }
   }
 }

@@ -38,5 +38,31 @@
     "props": {
       "width": "grow"
     }
+  },
+
+
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Busca aquí tus productos"
+    }
+  },
+
+
+"login": {
+  "props": {
+    "iconLabel": "Iniciar sesión" 
+  }
+},
+
+
+  "autocomplete-result-list.v2": {
+    "props": {
+      "blockClass": "inteliSearch"
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ]
   }
 }

@@ -1,0 +1,86 @@
+/* Header / Main Header / Menu */
+.styledLinkContainer--header-mainHeader-triggerMenu {
+    padding: 0;
+    margin: 0;
+}
+.styledLinkContent--header-mainHeader-triggerMenu {
+    color: #2B568E;
+    white-space: break-spaces;
+    position: relative;
+    padding-left: 2.5rem;
+    transition: all .5s ease;
+}
+.styledLinkContent--header-mainHeader-triggerMenu:hover {
+    color: #003b6b;
+    transition: all .5s ease;
+}
+
+.styledLinkContent--header-mainHeader-triggerMenu:hover::before {
+    background-color: #003b6b;
+    transition: all .5s ease;
+}
+
+.styledLinkContent--header-mainHeader-triggerMenu::before {
+    content: '';
+    background-image: url(assets/icons/menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 31px;
+    height: 31px;
+    display: block;
+    padding: 0;
+    border-radius: 50px;
+    background-color: #2B568E;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+
+/* Header / Main Header / Location */
+.menuItem--header-mainHeader-locationUserCart-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styledLinkContainer--header-mainHeader-locationUserCart-location {
+    margin: 0;
+    padding: 0;
+}
+.styledLinkContent--header-mainHeader-locationUserCart-location {
+    color: #2B568E;
+    position: relative;
+    transition: all .5s ease;
+    padding-left: 1.5rem;
+}
+.styledLinkContent--header-mainHeader-locationUserCart-location::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(assets/icons/pin.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.styledLink--header-mainHeader-locationUserCart-location {
+    padding: .7rem 1.3rem .7rem 1.3rem;
+    border-radius: 4px;
+    display: block;
+    transition: all .5s ease;
+}
+
+.styledLink--header-mainHeader-locationUserCart-location:active,
+.styledLink--header-mainHeader-locationUserCart-location:focus,
+.styledLink--header-mainHeader-locationUserCart-location:hover {
+    transition: all .5s ease;
+    background-color: #7DA2D2;
+}

@@ -1,0 +1,235 @@
+{
+  //  Home Categorias  1
+  "flex-layout.col#home-categorias-1": {
+    "props": {
+      "blockClass": ["home-categorias-1", "home-categorias"]
+    },
+    "children": ["image#home-categorias-1", "rich-text#home-categorias-1"]
+  },
+
+  //  Home Categorias  2
+  "flex-layout.col#home-categorias-2": {
+    "props": {
+      "blockClass": ["home-categorias-2", "home-categorias"]
+    },
+    "children": ["image#home-categorias-2", "rich-text#home-categorias-2"]
+  },
+
+  //  Home Categorias  3
+  "flex-layout.col#home-categorias-3": {
+    "props": {
+      "blockClass": ["home-categorias-3", "home-categorias"]
+    },
+    "children": ["image#home-categorias-3", "rich-text#home-categorias-3"]
+  },
+
+  //  Home Categorias  4
+  "flex-layout.col#home-categorias-4": {
+    "props": {
+      "blockClass": ["home-categorias-4", "home-categorias"]
+    },
+    "children": ["image#home-categorias-4", "rich-text#home-categorias-4"]
+  },
+
+  //  Home Categorias  5
+  "flex-layout.col#home-categorias-5": {
+    "props": {
+      "blockClass": ["home-categorias-5", "home-categorias"]
+    },
+    "children": ["image#home-categorias-5", "rich-text#home-categorias-5"]
+  },
+
+  //  Home Categorias  6
+  "flex-layout.col#home-categorias-6": {
+    "props": {
+      "blockClass": ["home-categorias-6", "home-categorias"]
+    },
+    "children": ["image#home-categorias-6", "rich-text#home-categorias-6"]
+  },
+
+  //  Home Categorias  7
+  "flex-layout.col#home-categorias-7": {
+    "props": {
+      "blockClass": ["home-categorias-7", "home-categorias"]
+    },
+    "children": ["image#home-categorias-7", "rich-text#home-categorias-7"]
+  },
+
+  //  Home Categorias  8
+  "flex-layout.col#home-categorias-8": {
+    "props": {
+      "blockClass": ["home-categorias-8", "home-categorias"]
+    },
+    "children": ["image#home-categorias-8", "rich-text#home-categorias-8"]
+  },
+
+  //  Home Categorias  9
+  "flex-layout.col#home-categorias-9": {
+    "props": {
+      "blockClass": ["home-categorias-9", "home-categorias"]
+    },
+    "children": ["image#home-categorias-9", "rich-text#home-categorias-9"]
+  },
+
+  //  Home Categorias  1
+  "flex-layout.col#home-categorias-10": {
+    "props": {
+      "blockClass": ["home-categorias-1", "home-categorias"]
+    },
+    "children": ["image#home-categorias-1", "rich-text#home-categorias-1"]
+  },
+  
+
+
+
+"image#home-categorias-1": {
+    "props": {
+        "blockClass": ["home-categorias-1", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-1.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-1": {
+    "props": {
+        "blockClass": ["home-categorias-1", "home-categorias"],
+        "text": "[Destacados](/)"
+    }
+},
+"image#home-categorias-2": {
+    "props": {
+        "blockClass": ["home-categorias-2", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-2.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-2": {
+    "props": {
+        "blockClass": ["home-categorias-2", "home-categorias"],
+        "text": "[Entretención](/)"
+    }
+},
+"image#home-categorias-3": {
+    "props": {
+        "blockClass": ["home-categorias-3", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-3.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-3": {
+    "props": {
+        "blockClass": ["home-categorias-3", "home-categorias"],
+        "text": "[Música](/)"
+    }
+},
+"image#home-categorias-4": {
+    "props": {
+        "blockClass": ["home-categorias-4", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-4.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-4": {
+    "props": {
+        "blockClass": ["home-categorias-4", "home-categorias"],
+        "text": "[Electrónica](/)"
+    }
+},
+"image#home-categorias-5": {
+    "props": {
+        "blockClass": ["home-categorias-5", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-5.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-5": {
+    "props": {
+        "blockClass": ["home-categorias-5", "home-categorias"],
+        "text": "[Telefonía](/)"
+    }
+},
+"image#home-categorias-6": {
+    "props": {
+        "blockClass": ["home-categorias-6", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-6.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-6": {
+    "props": {
+        "blockClass": ["home-categorias-6", "home-categorias"],
+        "text": "[Audio](/)"
+    }
+},
+"image#home-categorias-7": {
+    "props": {
+        "blockClass": ["home-categorias-7", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-7.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-7": {
+    "props": {
+        "blockClass": ["home-categorias-7", "home-categorias"],
+        "text": "[TV](/)"
+    }
+},
+"image#home-categorias-8": {
+    "props": {
+        "blockClass": ["home-categorias-8", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-8.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-8": {
+    "props": {
+        "blockClass": ["home-categorias-8", "home-categorias"],
+        "text": "[Seguridad](/)"
+    }
+},
+"image#home-categorias-9": {
+    "props": {
+        "blockClass": ["home-categorias-9", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-9.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-9": {
+    "props": {
+        "blockClass": ["home-categorias-9", "home-categorias"],
+        "text": "[Electricidad](/)"
+    }
+},
+"image#home-categorias-10": {
+    "props": {
+        "blockClass": ["home-categorias-10", "home-categorias"],
+        "src": "assets/home/home-categorias/home-categorias-10.svg",
+        "url": {
+            "link": "/"
+        }
+    }
+},
+"rich-text#home-categorias-10": {
+    "props": {
+        "blockClass": ["home-categorias-10", "home-categorias"],
+        "text": "[Iluminción](/)"
+    }
+}
+}

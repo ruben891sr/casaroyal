@@ -1,0 +1,43 @@
+{
+  // Home / Slider
+  "list-context.image-list#home-mainSlider-images": {
+    "children": ["slider-layout#home-mainSlider-images"],
+    "props": {
+      "height": 550,
+      "images": [
+        {
+          "image": "assets/home/home-slider/home-slider-test.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        },
+        {
+          "image": "assets/home/home-slider/home-slider-test.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        },
+        {
+          "image": "assets/home/home-slider/home-slider-test.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home-mainSlider-images": {
+    "props": {
+      "blockClass": ["home-mainSlider-images", "dotsCustom"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

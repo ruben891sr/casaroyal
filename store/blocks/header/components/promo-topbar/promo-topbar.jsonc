@@ -1,0 +1,9 @@
+{
+  // Header / Promo top bar
+  "rich-text#header-promoTopBar": {
+    "props": {
+      "blockClass": "header-promoTopBar",
+      "text": "Compra hasta las 17.00hrs y recibe tu pedido en 3 horas"
+    }
+  }
+}

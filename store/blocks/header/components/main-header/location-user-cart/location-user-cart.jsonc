@@ -1,0 +1,30 @@
+{
+  // Main Header / Location User Cart
+  "vtex.menu@2.x:menu#header-mainHeader-locationUserCart": {
+    "props": {
+      "blockClass": "header-mainHeader-locationUserCart"
+    },
+    "children": [
+      "menu-item#header-mainHeader-locationUserCart-location",
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  // Main Header / Location
+  "menu-item#header-mainHeader-locationUserCart-location": {
+    "props": {
+      "blockClass": "header-mainHeader-locationUserCart-location",
+      "id": "header-mainheader-locationusercart-location",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "header-mainheader-locationusercart-location",
+        "text": "Las Condes"
+      }
+    }
+  }
+}

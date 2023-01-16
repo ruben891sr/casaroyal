@@ -1,0 +1,10 @@
+/* Header / Main Header */
+.wrapper--header-mainHeader {
+    height: initial !important;
+    
+}
+.container--header-mainHeader {
+    padding: 0.7rem 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}

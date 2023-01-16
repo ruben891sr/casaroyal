@@ -1,0 +1,73 @@
+{
+  // Home / Ofertas
+  "flex-layout.col#home-ofertas-title": {
+    "props": {
+      "blockClass": "home-ofertas-title"
+    },
+    "children": ["rich-text#home-ofertas"]
+  },
+  "flex-layout.col#home-ofertas-images": {
+    "props": {
+      "blockClass": "home-ofertas-images"
+    },
+    "children": ["list-context.image-list#home-ofertas"]
+  },
+
+  "rich-text#home-ofertas": {
+    "props": {
+      "blockClass": "home-ofertas",
+      "text": "Ofertas imperdibles **Podras encontrar productos desde $23.000**"
+    }
+  },
+
+  "list-context.image-list#home-ofertas": {
+    "children": ["slider-layout#home-ofertas"],
+    "props": {
+      "height": 200,
+      "images": [
+        {
+          "image": "assets/home/home-ofertas/home-ofertas-1.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        },
+        {
+          "image": "assets/home/home-ofertas/home-ofertas-2.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        },
+        {
+          "image": "assets/home/home-ofertas/home-ofertas-3.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        },
+        {
+          "image": "assets/home/home-ofertas/home-ofertas-4.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        },
+        {
+          "image": "assets/home/home-ofertas/home-ofertas-5.jpg",
+          "mobileImage": "https://via.placeholder.com/375x276",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home-ofertas": {
+    "props": {
+      "blockClass": ["home-mainSlider-images", "dotsCustom"],
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 5
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

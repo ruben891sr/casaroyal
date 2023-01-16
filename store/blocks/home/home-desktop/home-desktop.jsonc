@@ -1,0 +1,88 @@
+{
+  // Home / Desktop
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#home-mainSlider",
+      "flex-layout.row#home-icons",
+      "flex-layout.row#home-countDown",
+      "flex-layout.row#home-ofertas",
+      "sticky-layout#home-categorias"
+      
+    ]
+  },
+
+  // Home / Main Slider
+  "flex-layout.row#home-mainSlider": {
+    "props": {
+      "blockClass": "home-mainSlider",
+      "fullWidth": true
+    },
+    "children": ["list-context.image-list#home-mainSlider-images"]
+  },
+
+  // Home / Icons
+  "flex-layout.row#home-icons": {
+    "props": {
+      "blockClass": "home-icons"
+    },
+    "children": [
+      "flex-layout.col#home-icons-uno",
+      "flex-layout.col#home-icons-dos",
+      "flex-layout.col#home-icons-tres",
+      "flex-layout.col#home-icons-cuatro",
+      "flex-layout.col#home-icons-cinco",
+      "flex-layout.col#home-icons-seis",
+      "flex-layout.col#home-icons-siete"
+    ]
+  },
+
+// Home / Count Down
+  "flex-layout.row#home-countDown": {
+    "props": {
+        "blockClass": "home-countDown"
+    },
+    "children": [
+        "flex-layout.col#home-countDown-countDown",
+        "flex-layout.col#home-countDown-shelf"
+    ]
+  },
+
+// Home / Ofertas
+  "flex-layout.row#home-ofertas": {
+    "props": {
+        "blockClass": "home-ofertas",
+        "colSizing": "auto"
+    },
+    "children": [
+        "flex-layout.col#home-ofertas-title",
+        "flex-layout.col#home-ofertas-images"
+    ]
+  },
+
+  // Home / Categorías
+  "sticky-layout#home-categorias": {
+    "props": {
+        "blockClass": "home-categorias"
+    },
+    "children": [
+        "flex-layout.row#home-categorias"
+    ]
+  },
+  "flex-layout.row#home-categorias": {
+    "props": {
+        "blockClass": "home-categorias"
+    },
+    "children": [
+        "flex-layout.col#home-categorias-1",
+        "flex-layout.col#home-categorias-2",
+        "flex-layout.col#home-categorias-3",
+        "flex-layout.col#home-categorias-4",
+        "flex-layout.col#home-categorias-5",
+        "flex-layout.col#home-categorias-6",
+        "flex-layout.col#home-categorias-7",
+        "flex-layout.col#home-categorias-8",
+        "flex-layout.col#home-categorias-9",
+        "flex-layout.col#home-categorias-10"
+    ]
+  }
+}

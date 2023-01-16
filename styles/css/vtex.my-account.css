@@ -1,0 +1,27 @@
+/* Header / Main Header / Search */
+:global(.vtex-flex-layout-0-x-flexRowContent--header-mainHeader > div):nth-child(3) {
+    width: 100% !important;
+}
+
+
+/* Home / Count Down */
+:global(.vtex-rich-text-0-x-paragraph--home-countDown-countDown .vtex-rich-text-0-x-strong--home-countDown-countDown):nth-child(3)::before,
+:global(.vtex-rich-text-0-x-paragraph--home-countDown-countDown .vtex-rich-text-0-x-strong--home-countDown-countDown):nth-child(4)::before,
+:global(.vtex-rich-text-0-x-paragraph--home-countDown-countDown .vtex-rich-text-0-x-strong--home-countDown-countDown):nth-child(5)::before {
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 12px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--home-countDown-countDown .vtex-rich-text-0-x-strong--home-countDown-countDown):nth-child(3)::before {
+    content: 'Horas';
+}
+:global(.vtex-rich-text-0-x-paragraph--home-countDown-countDown .vtex-rich-text-0-x-strong--home-countDown-countDown):nth-child(4)::before {
+    content: 'Minutos';
+} 
+:global(.vtex-rich-text-0-x-paragraph--home-countDown-countDown .vtex-rich-text-0-x-strong--home-countDown-countDown):nth-child(5)::before {
+    content: 'Segundos';
+}
