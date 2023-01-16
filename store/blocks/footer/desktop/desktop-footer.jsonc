@@ -1,5 +1,595 @@
 {
   "footer-layout.desktop": {
-    "children": []
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer-mainFooter"
+    ]
+  },
+
+  // Footer Newsletter
+  "flex-layout.row#footer-newsletter": {
+    "props": {
+      "blockClass": "footer-newsletter"
+    },
+    "children": [
+      "flex-layout.col#footer-newsletter-text",
+      "flex-layout.col#footer-newsletter-form"
+    ]
+  },
+  "flex-layout.col#footer-newsletter-text": {
+    "props": {
+      "blockClass": "footer-newsletter-text"
+    },
+    "children": ["rich-text#footer-newsletter-text"]
+  },
+  "flex-layout.col#footer-newsletter-form": {
+    "props": {
+      "blockClass": "footer-newsletter-form"
+    },
+    "children": ["rich-text#footer-newsletter-form"]
+  },
+  "rich-text#footer-newsletter-text": {
+    "props": {
+      "blockClass": "footer-newsletter-text",
+      "text": "### Suscríbete a nuestro newsletter\n Suscríbete a nuestro Newsletter y se el primero en enterarte de todas nuestras ofertas y novedades que Casa Royal tiene preparado para ti"
+    }
+  },
+  "rich-text#footer-newsletter-form": {
+    "props": {
+      "blockClass": "footer-newsletter-form",
+      "text": "**Tu correo** [Enviar](/)"
+    }
+  },
+
+  // Footer / Main Footer
+  "flex-layout.row#footer-mainFooter": {
+    "props": {
+      "blockClass": "footer-mainFooter",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#footer-mainFooter-logo",
+      "flex-layout.col#footer-mainFooter-menu1",
+      "flex-layout.col#footer-mainFooter-menu2",
+      "flex-layout.col#footer-mainFooter-menu3",
+      "flex-layout.col#footer-mainFooter-menu4"
+    ]
+  },
+
+  // Footer / Main Footer / Col Logo
+  "flex-layout.col#footer-mainFooter-logo": {
+    "props": {
+      "blockClass": "footer-mainFooter-logo"
+    },
+    "children": [
+      "flex-layout.row#footer-mainFooter-logo-CR",
+      "flex-layout.row#footer-mainFooter-logo-rrss"
+    ]
+  },
+  "flex-layout.row#footer-mainFooter-logo-CR": {
+    "props": {
+      "blockClass": "footer-mainFooter-logo-CR",
+      "preventVerticalStretch": true
+    },
+    "children": ["image#footer-mainFooter-logo-CR"]
+  },
+  "image#footer-mainFooter-logo-CR": {
+    "props": {
+      "blockClass": "footer-mainFooter-logo-CR",
+      "src": "assets/footer/footer-logo-casaroyal.svg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.row#footer-mainFooter-logo-rrss": {
+    "props": {
+      "blockClass": "footer-mainFooter-logo-rrss",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#footer-mainFooter-logo-rrss-insta",
+      "image#footer-mainFooter-logo-rrss-face",
+      "image#footer-mainFooter-logo-rrss-youtube"
+    ]
+  },
+  "image#footer-mainFooter-logo-rrss-insta": {
+    "props": {
+      "blockClass": "footer-mainFooter-logo-rrss-insta",
+      "src": "assets/footer/footer-rrss-01.svg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#footer-mainFooter-logo-rrss-face": {
+    "props": {
+      "blockClass": "footer-mainFooter-logo-rrss-face",
+      "src": "assets/footer/footer-rrss-02.svg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#footer-mainFooter-logo-rrss-youtube": {
+    "props": {
+      "blockClass": "footer-mainFooter-logo-rrss-youtube",
+      "src": "assets/footer/footer-rrss-03.svg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+
+  // Footer / Main Footer / Col Logo / Menu 1
+  "flex-layout.col#footer-mainFooter-menu1": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mainFooter-menu1"]
+  },
+  "vtex.menu@2.x:menu#footer-mainFooter-menu1": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": [
+      "rich-text#footer-mainFooter-menu1",
+      "menu-item#footer-mainFooter-menu1-item1",
+      "menu-item#footer-mainFooter-menu1-item2",
+      "menu-item#footer-mainFooter-menu1-item3"
+    ]
+  },
+  "rich-text#footer-mainFooter-menu1": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "Conócenos"
+    }
+  },
+  "menu-item#footer-mainFooter-menu1-item1": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu1-item1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item1",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu1-item2": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu1-item2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item2",
+        "text": "Trabaja con nosotros"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu1-item3": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu1-item3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item3",
+        "text": "Venta empresas"
+      }
+    }
+  },
+
+  // Footer / Main Footer / Col Logo / Menu 2
+  "flex-layout.col#footer-mainFooter-menu2": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mainFooter-menu2"]
+  },
+  "vtex.menu@2.x:menu#footer-mainFooter-menu2": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": [
+      "rich-text#footer-mainFooter-menu2",
+      "menu-item#footer-mainFooter-menu2-item1",
+      "menu-item#footer-mainFooter-menu2-item2",
+      "menu-item#footer-mainFooter-menu2-item3",
+      "menu-item#footer-mainFooter-menu2-item4",
+      "menu-item#footer-mainFooter-menu2-item5",
+      "menu-item#footer-mainFooter-menu2-item6",
+      "menu-item#footer-mainFooter-menu2-item7"
+    ]
+  },
+  "rich-text#footer-mainFooter-menu2": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "¿Necesitas ayuda?"
+    }
+  },
+  "menu-item#footer-mainFooter-menu2-item1": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu2-item1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item1",
+        "text": "Servicio al cliente"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu2-item2": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu2-item2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item2",
+"text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu2-item3": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu2-item3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item3",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu2-item4": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu2-item4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item4",
+        "text": "Bases gánate un aguinaldo"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu2-item5": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu2-item5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item5",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu2-item6": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu2-item6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item6",
+        "text": "Despacho a domicilio"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu2-item7": {
+    "props": {
+      "blockClass": "mainFooter-menuItem", 
+      "id": "footer-mainFooter-menu2-item7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item7",
+        "text": "Retiro en tienda"
+      }
+    }
+  },
+
+  // Footer / Main Footer / Col Logo / Menu 3
+  "flex-layout.col#footer-mainFooter-menu3": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mainFooter-menu3"]
+  },
+  "vtex.menu@2.x:menu#footer-mainFooter-menu3": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": [
+      "rich-text#footer-mainFooter-menu3",
+      "menu-item#footer-mainFooter-menu3-item1",
+      "menu-item#footer-mainFooter-menu3-item2",
+      "menu-item#footer-mainFooter-menu3-item3",
+      "menu-item#footer-mainFooter-menu3-item4",
+      "menu-item#footer-mainFooter-menu3-item5",
+      "menu-item#footer-mainFooter-menu3-item6",
+      "menu-item#footer-mainFooter-menu3-item7"
+    ]
+  },
+  "rich-text#footer-mainFooter-menu3": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "¿Necesitas ayuda?"
+    }
+  },
+  "menu-item#footer-mainFooter-menu3-item1": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu3-item1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu3-item1",
+        "text": "Servicio al cliente"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu3-item2": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu3-item2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu3-item2",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu3-item3": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu3-item3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu3-item3",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu3-item4": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu3-item4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu3-item4",
+        "text": "Bases gánate un aguinaldo"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu3-item5": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu3-item5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu3-item5",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu3-item6": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu3-item6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu3-item6",
+        "text": "Despacho a domicilio"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu3-item7": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu3-item7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu3-item7",
+        "text": "Retiro en tienda"
+      }
+    }
+  },
+
+  // Footer / Main Footer / Col Logo / Menu 4
+  "flex-layout.col#footer-mainFooter-menu4": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mainFooter-menu4"]
+  },
+  "vtex.menu@2.x:menu#footer-mainFooter-menu4": {
+    "props": {
+      "blockClass": "footer-mainFooter-menu"
+    },
+    "children": [
+      "rich-text#footer-mainFooter-menu4",
+      "menu-item#footer-mainFooter-menu4-item1",
+      "menu-item#footer-mainFooter-menu4-item2",
+      "menu-item#footer-mainFooter-menu4-item3",
+      "menu-item#footer-mainFooter-menu4-item4",
+      "menu-item#footer-mainFooter-menu4-item5",
+      "menu-item#footer-mainFooter-menu4-item6",
+      "menu-item#footer-mainFooter-menu4-item7"
+    ]
+  },
+  "rich-text#footer-mainFooter-menu4": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "¿Necesitas ayuda?"
+    }
+  },
+  "menu-item#footer-mainFooter-menu4-item1": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu4-item1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item1",
+        "text": "Servicio al cliente"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu4-item2": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu4-item2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item2",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu4-item3": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu4-item3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item3",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu4-item4": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu4-item4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item4",
+        "text": "Bases gánate un aguinaldo"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu4-item5": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu4-item5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item5",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu4-item6": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu4-item6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item6",
+        "text": "Despacho a domicilio"
+      }
+    }
+  },
+  "menu-item#footer-mainFooter-menu4-item7": {
+    "props": {
+      "blockClass": "mainFooter-menuItem",
+      "id": "footer-mainFooter-menu4-item7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "footer-mainFooter-menu1-item7",
+        "text": "Retiro en tienda"
+      }
+    }
   }
 }

@@ -84,3 +84,21 @@
     transition: all .5s ease;
     background-color: #7DA2D2;
 }
+
+
+/* Footer / Main Footer */
+.menuContainer--footer-mainFooter-menu {
+    display: flex;
+    flex-direction: column;
+}
+.styledLinkContainer--mainFooter-menuItem {
+    margin: 0;
+    padding: 0;
+}
+.styledLink--mainFooter-menuItem {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1;
+    padding: 0.4rem 0;
+    display: block;
+}

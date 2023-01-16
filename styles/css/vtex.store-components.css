@@ -143,6 +143,36 @@
   display: none;
 }
 
+.imageElementLink--footer-mainFooter-logo-rrss-insta,
+.imageElementLink--footer-mainFooter-logo-rrss-face,
+.imageElementLink--footer-mainFooter-logo-rrss-youtube,
+.imageElement--footer-mainFooter-logo-rrss-insta,
+.imageElement--footer-mainFooter-logo-rrss-face,
+.imageElement--footer-mainFooter-logo-rrss-youtube {
+  display: block;
+}
+
+.imageElementLink--footer-mainFooter-logo-rrss-face {
+  margin: 0 0.8rem 0 0.5rem;
+}
+
+.imageElement--footer-mainFooter-logo-rrss-insta {
+  height: 25px;
+  max-height: 100% !important;
+  width: 100%;
+}
+.imageElement--footer-mainFooter-logo-rrss-face {
+  height: 30px;
+  max-height: 100%!important;
+  width: 100%;
+}
+.imageElement--footer-mainFooter-logo-rrss-youtube {
+  max-height: 100%!important;
+  width: 100%;
+  height: 37px;
+  margin-top: -3px;
+}
+
 
 /* Ajustes Container Vtex */
 @media screen and (min-width: 1024px) {

@@ -121,3 +121,36 @@
     display: flex;
     flex-direction: row;
 }
+
+
+/* Footer / Newsletter*/
+.flexRow--footer-newsletter {
+    background-image: url(assets/footer/footer-newsletter-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem 0;
+    margin-top: 4rem;
+}
+.flexRow--footer-newsletter :global(.vtex-store-components-3-x-container) {
+    max-width: 50% !important;
+}
+
+
+/* Footer / Main Footer */
+.flexRow--footer-mainFooter {
+    background-color: #2B568E;
+    padding: 3rem 0;
+}
+.flexCol--footer-mainFooter-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexColChild--footer-mainFooter-logo {
+    height: auto !important;
+}
+.flexRowContent--footer-mainFooter {
+    display: flex;
+    justify-content: space-evenly;
+}
